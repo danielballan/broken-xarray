@@ -1,3 +1,9 @@
+Install the module
+
+```
+pip install -e .
+```
+
 Start the server
 
 ```
