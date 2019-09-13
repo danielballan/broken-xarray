@@ -2,7 +2,11 @@ plugins:
     source:
         - module: example
 sources:
-    example:
+    xarr_example:
         driver: 'example-data-source'
         args:
             zarr_path: "example.zarr"
+    filled_example:
+        driver: 'bluesky-msgpack-catalog'
+        args:
+            paths: ["msgpack_data/*.msgpack"]
