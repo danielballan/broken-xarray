@@ -1,6 +1,6 @@
 import intake
 import intake.container
-from intake_xarray.base import DataSourceMixin
+from databroker.intake_xarray_core.base import DataSourceMixin
 import xarray
 
 
